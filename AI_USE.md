@@ -1,0 +1,7 @@
+# AI Use Disclosure
+
+Generative AI was used as a coding and debugging assistant during this project. It helped generate and troubleshoot Python code for data collection, news processing, market-data preparation, visualization, and implementation of the econometric models. I reviewed, tested, and modified the generated code before incorporating it into the final analysis.
+
+I independently experimented with and refined the proposed methodology. This included testing alternative news-intensity thresholds, evaluating different procedures for selecting high- and low-news days, modifying how daily news intensity was scored, and refining how high/low event pairs were constructed. I also expanded the model to use a larger set of observations and evaluated the consequences of these methodological choices. AI assisted with implementing these alternatives, but the decisions about which specifications to test, how to modify the methodology, and which final specification to retain were made by me.
+
+I independently assembled the report and interpreted the empirical results. I iterated on the analysis in response to the model outputs, investigated unexpected findings, selected the results and robustness checks to report, and determined the conclusions and limitations of the study. AI was used to help clarify technical concepts and revise code during this process, but the final methodological judgments, interpretation, organization, and conclusions are my own.
