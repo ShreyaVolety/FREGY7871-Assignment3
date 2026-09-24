@@ -1,0 +1,50 @@
+sample:
+  start: '2026-03-02'
+  end: '2026-09-22'
+  low_day_window: 7
+  h_buffer_trading_days: 0
+  seed: 20260922
+  low_news_percentile: 1.0
+normalization:
+  variable: dgs2
+  comparison_move: -0.25
+data:
+  fred:
+    dgs2: DGS2
+    dgs10: DGS10
+    breakeven10: T10YIE
+    gs10_monthly: GS10
+    bbb_spread: BAMLC0A4CBBB
+    hy_spread: BAMLH0A0HYM2
+    broad_dollar: DTWEXBGS
+  yahoo:
+    sp500: ^GSPC
+    oil_front: CL=F
+    gold: GC=F
+units:
+  dgs2: pp_change
+  dgs10: pp_change
+  breakeven10: pp_change
+  liquidity_proxy: pp_change
+  sp500: pct_change
+  bbb_spread: pp_change
+  hy_spread: pp_change
+  oil_front: dollar_change
+  gold: dollar_change
+  broad_dollar: pct_change
+news:
+  start: '2026-02-28'
+  end: '2026-09-22'
+  provider: gdelt
+  request_pause_seconds: 1.0
+  slice_days: 7
+  max_records_per_request: 250
+  close_hour_et: 16
+  cluster_similarity: 0.52
+  cluster_hours: 48
+  candidate_percentile: 0.75
+  minimum_source_groups: 3
+  trailing_baseline_days: 14
+  query: (Iran OR Iranian OR Tehran OR IRGC) AND (war OR strike OR missile OR drone
+    OR attack OR retaliation OR ceasefire OR negotiation OR talks OR blockade OR Hormuz
+    OR tanker OR shipping OR oil OR nuclear OR military OR airspace)

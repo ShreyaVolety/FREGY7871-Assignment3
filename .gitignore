@@ -1,0 +1,22 @@
+# Secrets
+.env
+*.pem
+*.key
+credentials*.json
+service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Large/generated data
+data/raw/
+data/processed/
+outputs/
+
+# OS/editor
+.DS_Store
+.vscode/

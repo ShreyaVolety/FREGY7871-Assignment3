@@ -1,0 +1,16 @@
+publication,domain,source_group,financial_source,perspective,active
+Reuters,reuters.com,wire_market,1,international,1
+Bloomberg,bloomberg.com,wire_market,1,international,1
+Financial Times,ft.com,wire_market,1,international,1
+Wall Street Journal,wsj.com,wire_market,1,united_states,1
+CNBC,cnbc.com,wire_market,1,united_states,1
+Associated Press,apnews.com,general_wire,0,international,1
+BBC,bbc.com,international_general,0,united_kingdom,1
+CNN,cnn.com,international_general,0,united_states,1
+New York Times,nytimes.com,international_general,0,united_states,1
+The Guardian,theguardian.com,international_general,0,united_kingdom,1
+Al Jazeera,aljazeera.com,middle_east,0,qatar,1
+Al-Monitor,al-monitor.com,middle_east,0,regional,1
+Times of Israel,timesofisrael.com,middle_east,0,israel,1
+IRNA,irna.ir,iranian,0,iran_state,1
+Iran International,iranintl.com,iranian,0,iran_opposition,1
